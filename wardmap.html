@@ -5,20 +5,19 @@
 <html>
 <head>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-<style type="text/css">
-  html { height: 100% }
-  body { height: 100%; margin: 0px; padding: 0px }
-  #map_canvas { height: 100% }
-</style>
-<script type="text/javascript"
-    src="http://maps.google.com/maps/api/js?sensor=false">
+<link rel="stylesheet" href="wardmap.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
 </script>
 <script type="text/javascript" src="wardmap.js"></script>
 
+
 <body>
-  <div id="map_canvas" style="width:600px; height:600px; border: 1px solid; margin: auto"></div>
-  <div id="myDiv" style="border: 1px solid"></div>
-<!-- <script type="text/javascript" src="http://api.scraperwiki.com/api/1.0/datastore/getdata?key=a7ba2433269b1ef935083bf80aca0681&format=json&name=birmingham-population-density-by-ward&callback=tryme2"></script> -->
-<script type="text/javascript" src="http://api.scraperwiki.com/api/1.0/datastore/getdata?key=a7ba2433269b1ef935083bf80aca0681&format=json&name=birmingham-population-density-by-ward&callback=tryme2&limit=4"></script>
+  <div style="width: 50%; margin: auto">This is very much a work in progress. </div>
+  <div id="map_canvas"></div>
+  <div id="tableDiv" ></div>
+  <div id="keyDiv" ></div>
+<script type="text/javascript" src="http://api.scraperwiki.com/api/1.0/datastore/getdata?key=a7ba2433269b1ef935083bf80aca0681&format=json&name=swimming-attempt&callback=pooldata_callback"></script>
+<script type="text/javascript" src="http://api.scraperwiki.com/api/1.0/datastore/getdata?key=a7ba2433269b1ef935083bf80aca0681&format=json&name=birmingham-population-density-by-ward&callback=tryme2"></script>
+<!-- <script type="text/javascript" src="http://api.scraperwiki.com/api/1.0/datastore/getdata?key=a7ba2433269b1ef935083bf80aca0681&format=json&name=birmingham-population-density-by-ward&callback=tryme2&limit=4"></script> -->
 </body>
 </html>
