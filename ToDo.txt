@@ -1,0 +1,19 @@
+-*- mode: org -*-
+
+* Stage 1: Population density
+** TODO Add (selected?) info from swimming-pool data
+   - Note taken on [2010-07-27 Tue 23:35] \\
+     Opening times
+     Street Address
+     Phone Number
+** TODO Style things properly
+** TODO Move to asynchronous model [0/2]
+*** TODO Bulk loading data only after page load
+    - Note taken on [2010-07-27 Tue 23:38] \\
+      Function called from onLoad event to write new SCRIPT tag grabbing JSONP callback?
+      Need to think about this.  There must be a simpler way.
+*** TODO Piecewise loading and generation of visualisation
+    - Note taken on [2010-07-27 Tue 23:39] \\
+      Use scraperwiki's limit/offset parameters to load smaller chunks
+      Get first data on screen ASAP
+
